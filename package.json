@@ -4,7 +4,7 @@
   "description": "Deploying nodejs app in elastic beanstalk",
   "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node server.js"
   },
   "repository": {
     "type": "git",
@@ -22,5 +22,17 @@
   "bugs": {
     "url": "https://github.com/onimenotsuki/node-gulp-elasticbeanstalk/issues"
   },
-  "homepage": "https://github.com/onimenotsuki/node-gulp-elasticbeanstalk#readme"
+  "homepage": "https://github.com/onimenotsuki/node-gulp-elasticbeanstalk#readme",
+  "dependencies": {
+    "consolidate": "0.14.5",
+    "eslint": "3.12.2",
+    "express": "4.14.0",
+    "nunjucks": "3.0.0"
+  },
+  "devDependencies": {
+    "bower": "1.8.0",
+    "eslint": "3.12.2",
+    "gulp": "3.9.1",
+    "gulp-sass": "3.0.0"
+  }
 }
