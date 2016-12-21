@@ -1,0 +1,29 @@
+{
+  "name": "node-gulp-ebs",
+  "description": "Deploying nodejs app in elastic beanstalk",
+  "main": "server.js",
+  "authors": [
+    "Edgar Talledos <onimenotsuki@gmail.com>"
+  ],
+  "license": "MIT",
+  "keywords": [
+    "Nodejs",
+    "Gulp",
+    "Elastic",
+    "Beanstalk",
+    "Express"
+  ],
+  "homepage": "https://github.com/onimenotsuki/node-gulp-elasticbeanstalk",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "1.9.1 - 3",
+    "bootstrap-sass": "^3.3.7"
+  }
+}
