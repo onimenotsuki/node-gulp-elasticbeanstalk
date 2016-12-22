@@ -7,3 +7,6 @@ bower_components
 
 # Output of 'npm pack'
 *.tgz
+
+# Ignoring dist directory
+dist
