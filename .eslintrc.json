@@ -1,0 +1,37 @@
+{
+  "extends": "eslint:recommended",
+  "parser": "babel-eslint",
+  "rules": {
+    "no-console": "off",
+    "no-unused-vars": "off",
+    "no-underscore-dangle": "off",
+    "no-unused-expressions": "error",
+    "no-var": "off",
+    "no-undef": "off",
+    "quotes": ["warn", "single"],
+    "no-unneeded-ternary": "error",
+    "no-trailing-spaces": "warn",
+    "strict": "off",
+    "object-curly-spacing": ["error", "always"],
+    "vars-on-top": "off",
+    "wrap-iife": ["warn", "outside"]
+  },
+  "env": {
+    "node": true,
+    "browser": true,
+    "jasmine": true,
+    "mocha": true,
+    "jquery": true
+  },
+  "globals": {
+    "angular": true,
+    "by": true,
+    "browser": true,
+    "element": true,
+    "inject": true,
+    "io": true,
+    "moment": true,
+    "Promise": true,
+    "__TESTING__": true
+  }
+}
